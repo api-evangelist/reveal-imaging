@@ -1,8 +1,24 @@
 aid: reveal-imaging
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reveal-imaging.png
 name: Reveal Imaging
-description: Reveal Imaging is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Reveal Imaging (Reveal Imaging Technologies) is a security-screening hardware company
+  known for CT-based explosives-detection and checkpoint screening systems for aviation and critical
+  infrastructure. Founded around 2002 and backed by General Catalyst since 2003, the company was
+  acquired into SAIC and its detection business is now part of Leidos. It is a physical-security
+  systems provider, not an API provider - enrichment found no public developer portal, API, developer
+  documentation, or machine-readable specification hosted under its own name (its former revealimaging.com
+  domain now serves Leidos, and the General Catalyst portfolio entry points to saic.com).
 url: https://raw.githubusercontent.com/api-evangelist/reveal-imaging/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Explosives Detection
+- Checkpoint Screening
+- Aviation Security
+- Imaging
+- Hardware
+x-acquired-by: SAIC / Leidos
+x-is-api-provider: false
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
